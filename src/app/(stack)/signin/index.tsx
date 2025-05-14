@@ -22,21 +22,15 @@ export default function Home() {
         placeholder='Digite Seu Email'
         style={{ width: 300, height: 50, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 20, fontSize: 20 }}
         />
-        <TextInput
-        placeholder='Digite Seu Nome'
-        style={{ width: 300, height: 50, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 10, fontSize: 20, fontStyle: 'italic',fontFamily: 'Georgia' }}
-        />
+        
         <TextInput
         placeholder='Digite Sua Senha'
-        style={{ width: 300, height: 50, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 10, fontSize: 20, fontStyle: 'italic',fontFamily: 'Georgia' }}
+        style={{ width: 300, height: 50, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 30, fontSize: 20, fontStyle: 'italic',fontFamily: 'Georgia' }}
         />
-        <TextInput
-        placeholder='Confirme Sua Senha'
-        style={{ width: 300, height: 50, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 10, fontSize: 20, fontStyle: 'italic',fontFamily: 'Georgia' }}
-        />
+        
         </View>
-        <TouchableOpacity style={{ width: 300, height: 60, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 10, marginBottom:15 } } onPress={() => alert('Cadastrado com sucesso!')}> 
-          <Text style={{justifyContent: 'center', alignItems: 'center', textAlign: 'center' , color: '#EA25BF', fontSize: 40, fontStyle: 'italic',fontFamily: 'Georgia'}}>Finalizar</Text>
+        <TouchableOpacity style={{ width: 300, height: 60, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 30, marginBottom:15 } } onPress={() => alert('Cadastrado com sucesso!')}> 
+          <Text style={{justifyContent: 'center', alignItems: 'center', textAlign: 'center' , color: '#EA25BF', fontSize: 40, fontStyle: 'italic',fontFamily: 'Georgia'}}>Entrar</Text>
         </TouchableOpacity>
         
         

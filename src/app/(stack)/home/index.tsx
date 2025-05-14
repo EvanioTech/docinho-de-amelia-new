@@ -22,10 +22,11 @@ export default function Home() {
           <Text style={{justifyContent: 'center', alignItems: 'center', textAlign: 'center' , color: '#EA25BF', fontSize: 40, fontStyle: 'italic',fontFamily: 'Georgia'}}>Cadastrar</Text>
         </TouchableOpacity>
         </Link>
-       
+       <Link href="/signin" asChild >
         <TouchableOpacity style={{ width: 300, height: 70,   marginTop:10  }} >
           <Text style={{   fontSize: 20, fontStyle: 'italic', fontFamily: 'Georgia',textAlign:'right'}}>Sou cliente!</Text>
         </TouchableOpacity>
+        </Link>
         
         
        
