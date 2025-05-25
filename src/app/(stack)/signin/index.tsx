@@ -29,9 +29,11 @@ export default function Home() {
         />
         
         </View>
-        <TouchableOpacity style={{ width: 300, height: 60, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 30, marginBottom:15 } } onPress={() => alert('Cadastrado com sucesso!')}> 
+        <Link href="/products" asChild >
+        <TouchableOpacity style={{ width: 300, height: 60, backgroundColor: '#F8DEFF', borderRadius: 10, justifyContent: 'center', alignItems: 'center', marginTop: 30, marginBottom:15 } } > 
           <Text style={{justifyContent: 'center', alignItems: 'center', textAlign: 'center' , color: '#EA25BF', fontSize: 40, fontStyle: 'italic',fontFamily: 'Georgia'}}>Entrar</Text>
         </TouchableOpacity>
+        </Link>
         
         
        
